@@ -35,16 +35,11 @@
             gesture-detector
         >
             <a-assets>
-                <video
-                    id="vid"
-                    src="assets/asset.mp4"
-                    preload="none"
-                    response-type="arraybuffer"
-                    loop
-                    crossorigin
-                    webkit-playsinline
-                    playsinline
-                ></video>
+
+                <video preload="none" id="vid" response-type="arraybuffer" loop="false" crossorigin webkit-playsinline playsinline controls>
+                    <source  src="assets/asset.mp4">
+                </video>
+                
             </a-assets>
 
             <a-marker
